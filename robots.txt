@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://a259179.sitemaphosting6.com/4237114/sitemap.xml

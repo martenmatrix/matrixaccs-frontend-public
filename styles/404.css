@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "circstd";
+    src: url("/fonts/CircularStd.woff");
+    font-display: swap;
+  } 
+
+.main h1 {
+    font-family: "circstd";
+    font-size: 250px;
+    margin-bottom: 0;
+}
+
+.main h2 {
+    font-family: "circstd";
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main p {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 180px
+    }
+    
+    .main h2 {
+        font-size: 80px;
+    }
+
+    .main p {
+        font-size: 30px;
+    }
+}
+
+.main button {
+    background: linear-gradient(90deg, rgba(37,150,190,1) 0%, rgba(114,116,216,1) 100%, rgba(175,90,236,1) 100%); 
+    border: none;
+    width: 30%;
+    height: 3em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 100px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.315);
+    font-family: circstd;
+    font-size:200%;
+    transform: translateY(-5px);
+    transition: ease-in;
+    transition-duration: 100ms;
+}
+
+.main button:hover, button:active {
+    transform: translateY(5px);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.315);
+    transition: ease-in;
+    transition-duration: 100ms;
+}
+
+@media screen and (max-width: 768px) {
+    .main button {
+        width: 80%;
+        font-size: 130%;
+        margin-top: 1em;
+    }
+}
+
+.main {
+    margin-left: 1em;
+}

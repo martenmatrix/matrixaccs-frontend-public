@@ -1,0 +1,101 @@
+/* Footer */
+footer img { 
+    max-width: 100%; height: auto; }
+
+
+footer {
+    background-color: #18181b;
+}
+
+.menu-logo {
+    width: 20em;
+    height: auto;
+}
+
+.menu {
+    font-family: "circstd";
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.menu-info {
+    margin-left: 4em;
+}
+
+footer h2 {
+    color: rgb(255, 255, 255);
+}
+
+footer a, footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.192);
+    margin: 0;
+    padding: 0;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    transition: ease-in;
+    transition-property: color;
+    transition-duration: 50ms;
+}
+
+
+footer hr {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.192);
+    height: 2px;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 2em;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.418);
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .menu-logo {
+        display: none;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 1em;
+    }
+    
+    .menu-info {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .support {
+        align-items: start;
+        justify-content: start;
+    }
+}
+
+/**to meet lighthouse requirements**/
+@media screen and (max-width: 800px) {
+
+    .menu-info a {
+        min-height: 48px;
+        min-width: 48px;
+    }
+    
+}

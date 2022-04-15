@@ -1,0 +1,83 @@
+/*Cookie banner*/
+.hidden {
+    display: none !important;
+}
+
+#cookie-banner {
+	position: fixed;
+    font-family: "circstd";
+	bottom: 40px;
+    margin: 0 10% 0 10%;
+    width: 72%;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.cookie-banner a {
+    text-decoration: none;
+    
+}
+
+#close {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(202, 34, 34, 0.897);
+  border: none;
+  color: white;
+  
+  cursor: pointer;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.8;
+  border-radius: 90px;
+}
+#close:hover {
+    opacity: 1;
+    transition: ease-in;
+    transition-duration: 10ms;
+    transition-property: opacity;
+}
+@media screen and (max-width: 1200px) {
+
+    #close {
+        height: 25px;
+        width: 25px;
+
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    #close {
+        height: 25px;
+        width: 28px;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #close {
+        height: 30px;
+        width: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    #close {
+        height: 25px;
+        width: 55px;
+    }
+    
+}
